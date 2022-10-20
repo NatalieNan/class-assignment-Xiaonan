@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(202, 146, 255);
+    padding: 5px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 1140px;
+    margin: 10px;
+}
+
+.logo {
+    display:flex;
+}
+
+.navigation {
+    height:20px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.navigation ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:right;
+}
+
+.navigation ul li{
+    background-color:#ffffff;
+    border:1px solid rgb(85, 0, 128);
+    border-radius: 10px;
+    display:inline-block;
+    height:40px;
+    line-height:40px;
+    margin:0 0 0 10px;
+    text-align:center;
+    width: 84px;
+}
+
+
+.container {
+    background-color: rgb(202, 146, 255);
+    padding: 5px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 1140px;
+    margin: 10px;
+}
+
+.card {
+    background-color:rgb(230, 230, 230);
+    padding: 15px;
+    margin-bottom: var(--margin);
+    width: calc(25% - var(--margin) * 5);
+    float: left;
+    margin: var(--margin);
+    box-shadow: 0 0 10px 0 darkslategrey;
+}
+.card a {
+     background-color: red;
+     padding: 10px 15px;
+     color: white;
+     text-decoration: wavy;
+} 
+.card,
+.card a {
+    border-radius: 10px;
+}
+
+.members{
+    background-color: rgb(202, 146, 255);
+    padding: 200px 200px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin: 10px;
+}
